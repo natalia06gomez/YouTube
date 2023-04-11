@@ -33,7 +33,7 @@ public class ObserverEX {
         System.out.println("Estado de flag: " + subj.getFlag());
         subj.setFlag(2);
         System.out.println("Estado de flag: " + subj.getFlag());
-        //Des suscribirse
+        //Dessuscribirse
         subj.unregister(ob1);
         
         //Cambiar estado de flag
